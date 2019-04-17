@@ -1,0 +1,43 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.title {
+  font-size: 46px;
+  margin: 10px;
+}
+
+.search {
+  float: left;
+  width: 20%;
+}
+
+.search * {
+  display: block;
+  margin: 10px;
+}
+
+.name {
+  font-weight: 900;
+}
+
+input {
+  border: 1px ridge #d4d5d6;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 35px;
+  background: white;
+  color: blue;
+  font-size: 0.7em;
+  font-weight: 900;
+}
+
+.button:hover {
+  color: white;
+  background: #7a7b7c;
+  cursor: pointer;
+}
